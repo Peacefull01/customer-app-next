@@ -222,7 +222,7 @@ const Home: NextPage = () => {
           </thead>
           <tbody>
             {users.map((user, i) => (
-              <tr key={user.id} className={`${((user.username.toLocaleLowerCase().includes(userSearch)) || (userSearch.toLocaleLowerCase() === '')) ? '' : 'd-none'}`}>
+              <tr key={user.id} className={`${((user.username.toLocaleLowerCase().includes(userSearch))||(user.email.toLocaleLowerCase().includes(userSearch)) || (userSearch.toLocaleLowerCase() === '')) ? '' : 'd-none'}`}>
                 <td>{i + 1}</td>
                 <td>{user.username}</td>
                 <td>{user.email}</td>
