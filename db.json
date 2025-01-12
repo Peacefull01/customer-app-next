@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "John Smith",
+      "email": "test@test.com",
+      "password": "123456",
+      "phone": "+1 (555) 123-4567",
+      "role": "Senior Developer",
+      "company": "Tech Solutions Inc.",
+      "department": "Engineering",
+      "location": "New York",
+      "joinDate": "2023-01-15",
+      "status": "Active"
+      
+    },
+    {
+      "id": 2,
+      "username": "Sarah Johnson",
+      "email": "test@example.com",
+      "password": "123456",
+      "phone": "+1 (555) 987-6543",
+      "role": "Product Manager",
+      "company": "Tech Solutions Inc.",
+      "department": "Product",
+      "location": "San Francisco",
+      "joinDate": "2023-03-20",
+      "status": "Active"
+    }
+  ]
+}
