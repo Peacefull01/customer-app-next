@@ -1,4 +1,4 @@
-// hooks/useAuth.js
+
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 
@@ -6,9 +6,9 @@ const useAuth = () => {
   const router = useRouter();
   
   useEffect(() => {
-    const token = localStorage.getItem('token'); // Get the token from localStorage (or cookies)
+    const token = localStorage.getItem('token'); 
     if (!token) {
-      router.push('/login'); // Redirect to login if not authenticated
+      router.push('/login'); 
     }
   }, [router]);
 };
