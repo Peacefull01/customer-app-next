@@ -44,7 +44,7 @@ const Post: NextPage = () => {
   return (
     <>
      <div>
-      <button className='m-1 btn btn-dark' onClick={() => router.back()}>Previous Page</button>
+      <button className='m-1 btn btn-custom' onClick={() => router.back()}> Previous Page</button>
       </div>
      <div className="container">
       <div className=" min-vh-100 d-flex align-items-center justify-content-center">
